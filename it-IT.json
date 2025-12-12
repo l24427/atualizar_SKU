@@ -1,0 +1,26 @@
+
+{
+    "locale": "it-IT",
+    "strings": {
+        "tx1": "Qui abbiamo il codice 43033941 collegato alla ricetta: Maxima Protecao G - Tomur",
+        "tx2": "IMPORTANTE!!! Questa formazione non si applica se la ricetta non esiste ancora nel sistema; è solo per ricette esistenti che devono aggiornare lo SKU. Non eseguire questa procedura per una ricetta non registrata nel sistema, poiché causerà errori nelle altre ricette.",
+        "tx3": "In questa formazione imparerai ad aggiornare lo SKU di una ricetta già esistente nel sistema. Esempio: In FB16 abbiamo il pannolino Máxima Proteção G Tomur, collegato al codice 43033941. Tuttavia, a volte questo prodotto smette di funzionare e, quando ritorna, è associato a un codice diverso, come 43038522. Il sistema non rileva automaticamente questa modifica, quindi è necessario aggiornare manualmente il codice modificando la tabella. Il processo è semplice e richiede meno di 2 minuti.",
+        "tx4": "Ora abbiamo la stessa ricetta in esecuzione, ma con un codice diverso. Questo genera l'errore “No Data” (Nessun dato), che significa che questo codice non è collegato a nessuna ricetta nella tabella. Di conseguenza, si verifica l'errore di calcolo “Calc Failed”. In questa formazione imparerai a correggere questo errore in modo semplice e veloce.",
+        "tx5": "Clicca su Library",
+        "tx6": "Clicca su Pi Sistem Explorer",
+        "tx7": "Digita: explorer",
+        "tx8": "Clicca sulla lente d'ingrandimento",
+        "tx9": "Espandi il menu Tabelle",
+        "tx10": "Clicca sulla prima tabella: 00_MASTER Configuration - Centerline Product Description",
+        "tx11": "Clicca su Table, accanto a General",
+        "tx12": "Digita: fb16, per filtrare solo le ricette di fb16",
+        "tx13": "Ora filtriamo tutte le ricette solo di FB16 e troviamo lo SKU che dobbiamo aggiornare, in questo caso 43033941",
+        "tx14": "Fatto, codice modificato, basta fare Check In per aggiornare Pi Vision",
+        "tx15": "Clicca di nuovo nello stesso punto e digita il nuovo codice: 43038522 Poi premi Enter",
+        "tx16": "Ora dobbiamo individuare la ricetta di cui vogliamo aggiornare il codice. In questo caso si tratta di: Máxima Proteção G - Tomur. Nella colonna Product Code, dove sono elencati tutti i codici collegati a ciascuna ricetta, clicca sul codice che si trova nella stessa riga della ricetta Máxima Proteção G - Tomur.",
+        "tx17": "Fatto! PI Vision è stato corretto e il nuovo SKU è ora collegato al prodotto. IMPORTANTE: Dopo aver aggiornato lo SKU, potrebbero essere necessari fino a 10 minuti affinché la ricetta riappaia in PI Vision e fino a 30 minuti per ricaricare la conformità precedente. Questo tempo può essere più lungo se la macchina è ferma!",
+        "tx18": "IMPORTANTE!!! Non utilizzare mai questa procedura per aggiungere nuove ricette e non modificare mai il nome della ricetta durante questo processo, nemmeno una virgola. Qualsiasi modifica al nome causerà errori in tutte le variabili della macchina, con conseguenti errori di calcolo e problemi di conformità, rendendo necessario rifare tutti i PI Points della macchina. Questa procedura serve esclusivamente per aggiornare i codici delle ricette già esistenti che hanno cambiato codice. Presto saranno disponibili altre formazioni su come aggiungere nuove ricette e modificare il nome delle ricette esistenti.",
+        "tx19": "Formazione completata! Puoi chiudere questa pagina o tornare al portale di formazione Formazione completata! Puoi chiudere questa pagina o tornare al portale di formazione.",
+        "tx20": ""
+    }
+}

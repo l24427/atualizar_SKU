@@ -1,0 +1,26 @@
+
+{
+    "locale": "en-US",
+    "strings": {
+        "tx1": "Here we have code 43033941 linked to the recipe: Maxima Protecao G - Tomur",
+        "tx2": "IMPORTANT!!! This training does not apply if the recipe does not yet exist in the system; it is only for existing recipes that need an SKU update. Do not perform this procedure for a recipe that is not registered in the system, as it will cause errors in other recipes.",
+        "tx3": "In this training, you will learn how to update the SKU of an existing recipe in the system. Example: In FB16 we have the diaper Máxima Proteção G Tomur, linked to code 43033941. However, sometimes this product stops running and, when it returns, it is associated with a different code, such as 43038522. The system does not automatically detect this change, so you must manually update the code by editing the table. The process is simple and takes less than 2 minutes.",
+        "tx4": "Now we have the same recipe running, but with a different code. This generates the error “No Data,” meaning that this code is not linked to any recipe in the table. As a result, the calculation error “Calc Failed” occurs. In this training, you will learn how to fix this error quickly and easily.",
+        "tx5": "Click on Library",
+        "tx6": "Click on Pi Sistem Explorer",
+        "tx7": "Type: explorer",
+        "tx8": "Click the magnifying glass",
+        "tx9": "Expand the Tables menu",
+        "tx10": "Click the first table: 00_MASTER Configuration - Centerline Product Description",
+        "tx11": "Click on Table, next to General",
+        "tx12": "Type: fb16, to filter only FB16 recipes",
+        "tx13": "Now let's filter all recipes only from FB16 and find the SKU we need to update, in this case 43033941",
+        "tx14": "Done, code edited, just click Check In to update Pi Vision",
+        "tx15": "Click again in the same place, and type the new code: 43038522 Then press Enter",
+        "tx16": "Now we need to locate the recipe we want to update the code for. In this case, it is: Maxima Proteção G - Tomur. In the Product Code column, where all codes linked to each recipe are listed, click the code in the same row as the recipe Maxima Proteção G - Tomur.",
+        "tx17": "Done! PI Vision has been corrected and the new SKU is now linked to the product. IMPORTANT: After updating the SKU, it may take up to 10 minutes for the recipe to reappear in PI Vision and up to 30 minutes to reload previous compliance. This time may be longer if the machine is stopped!",
+        "tx18": "IMPORTANT!!! Never use this procedure to add new recipes and never change the recipe name during this process—not even a comma. Any change in the name will cause errors in all machine variables, resulting in calculation failures and compliance issues, requiring all PI Points to be redone. This procedure is exclusively for updating codes of existing recipes that have changed codes. Soon, other trainings will be available on how to add new recipes and change the names of existing recipes.",
+        "tx19": "Training completed! You can close this page or return to the training portal.",
+        "tx20": ""
+        }
+}
