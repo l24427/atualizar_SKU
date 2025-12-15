@@ -1315,6 +1315,7 @@ self.C3_ExpressionFuncs = [
 		() => "explorer",
 		() => 0.3,
 		() => 4,
+		() => 6,
 		() => "Filter",
 		() => "FB16",
 		() => 20,

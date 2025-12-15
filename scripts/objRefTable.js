@@ -121,6 +121,7 @@ self.C3_JsPropNameTable = [
 	{tx_1: 0},
 	{tx_OK: 0},
 	{tx_OK2: 0},
+	{Texto: 0},
 	{bandeiras: 0},
 	{IdiomaSelecionado: 0}
 ];
@@ -193,5 +194,6 @@ self.InstanceType = {
 	tx_1: class extends self.ITextInstance {},
 	tx_OK: class extends self.ITextInstance {},
 	tx_OK2: class extends self.ITextInstance {},
+	Texto: class extends self.ITextInstance {},
 	bandeiras: class extends self.ISpriteInstance {}
 }
